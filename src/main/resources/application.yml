@@ -5,6 +5,18 @@ spring:
     url: jdbc:mysql://localhost:3306/comm?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 582552546
+  mail:
+    host: smtp.163.com
+    port: 587
+    username: uuhhmail@163.com
+    password: GEQOIXGRZENRFJDA
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true #开启SSL
+    protocol: smtp
+    default-encoding: utf-8
+
 # 配置mybatis-plus的日志信息
 mybatis-plus:
   configuration:
