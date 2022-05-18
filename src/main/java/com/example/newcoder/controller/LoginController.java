@@ -8,14 +8,19 @@ import com.google.code.kaptcha.Producer;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.thymeleaf.util.StringUtils;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
@@ -34,6 +39,9 @@ public class LoginController implements newCoderConstant {
 
     @Autowired
     private Producer kaptchaProducer;
+
+    @Value("server.servlet.context-path")
+    private String contentPath;
 
     // 拦截注册页面的请求，让请求返回我们解析过的页面
     @RequestMapping(value = "/register",method = RequestMethod.GET)
@@ -98,6 +106,46 @@ public class LoginController implements newCoderConstant {
         } catch (IOException e) {
             logger.error("响应验证码失败"+e.getMessage());
         }
+    }
+
+    // 登录的请求
+    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    public String userLogin(Model model,String username,String password,String code,boolean rememberme,HttpSession session,HttpServletResponse response){
+        // 判断登录是否有问题,验证码从session中取 ,登陆凭证的key（ticket）存到cookie中
+        // 1.验证码
+        final String kaptcha = (String) session.getAttribute("kaptcha");
+        if (StringUtils.isEmptyOrWhitespace(code)||StringUtils.isEmptyOrWhitespace(kaptcha)||!kaptcha.equalsIgnoreCase(code)){
+            model.addAttribute("codeMsg","验证码不正确");
+            return "/site/login";
+        }
+        // 2.账号密码
+        // 过期时间
+        int seconds;
+        if (rememberme) seconds=REMEMBER_EXPIRED_SECONDS;
+        else seconds=DEFAULT_EXPIRED_SECONDS;
+
+        final Map<String, Object> map = userService.login(username, password, seconds);
+        if (map.containsKey("ticket")){
+            // 登录成功则带有ticket，则我们需要把这个ticket存到cookie中
+            final Cookie cookie = new Cookie("ticket",map.get("ticket").toString());
+            cookie.setPath(contentPath);    // 用于干嘛的？
+            cookie.setMaxAge(seconds);
+            // cookie发送到页面
+            response.addCookie(cookie);
+            return "redirect:/index";
+        }else {
+            model.addAttribute("usernameMsg", map.get("usernameMSg"));
+            model.addAttribute("passwordMsg", map.get("passwordMsg"));
+            return "/site/login";
+        }
+    }
+
+    // 退出
+    @RequestMapping(value = "/logout",method = RequestMethod.GET)
+    public String logout(@CookieValue("ticket")String ticket){
+        // 通过cookie获取ticket
+        userService.logout(ticket);
+        return "redirect:/login";
     }
 
 }
