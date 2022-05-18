@@ -21,6 +21,7 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    use-generated-keys: true
 server:
   servlet:
     context-path: /
@@ -32,3 +33,6 @@ logging:
     console: "%d - %msg%n"
   file:
     path:  "/Code_Study/Project/newCoder/src/main/resources/log/"
+
+# 配置域名之类的，自定义的
+community.path.domain: http://localhost:8080
