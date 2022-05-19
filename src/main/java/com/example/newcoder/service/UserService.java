@@ -147,11 +147,16 @@ public class UserService implements newCoderConstant {
             return map;
         }
 
-        // 验证码验证
+        // 是否已有登录凭证且未过期
+        final LoginTicket lTicket = loginTicketMapper.selectByUserId(user.getId());
+        if (lTicket!=null && lTicket.getStatus()==0 && lTicket.getExpired().after(new Date())){
+            map.put("ticket",lTicket.getTicket());
+            return map;
+        }
 
         // 如果都没错，则生成登录凭证
         final LoginTicket loginTicket = new LoginTicket();
-        loginTicket.setUser_id(user.getId());
+        loginTicket.setUserId(user.getId());
         loginTicket.setTicket(newCoderUtil.generateUUID()); // 随机,用于验证是否有有效的登陆凭证
         loginTicket.setStatus(0);
         loginTicket.setExpired(new Date(System.currentTimeMillis()+1000*expiredSeconds));
@@ -166,5 +171,11 @@ public class UserService implements newCoderConstant {
     public void logout(String ticket){
         //
         loginTicketMapper.updateStatus(ticket,1);
+    }
+
+    // 根据ticket查询的用户
+    public LoginTicket findTicket(String ticket){
+        final LoginTicket loginTicket = loginTicketMapper.selectByTicket(ticket);
+        return loginTicket;
     }
 }

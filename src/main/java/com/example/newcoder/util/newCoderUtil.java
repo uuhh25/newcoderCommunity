@@ -20,4 +20,6 @@ public class newCoderUtil {
         }
         return DigestUtils.md5DigestAsHex(key.getBytes(StandardCharsets.UTF_8));
     }
+
+
 }

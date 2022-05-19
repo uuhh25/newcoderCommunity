@@ -128,7 +128,7 @@ public class LoginController implements newCoderConstant {
         if (map.containsKey("ticket")){
             // 登录成功则带有ticket，则我们需要把这个ticket存到cookie中
             final Cookie cookie = new Cookie("ticket",map.get("ticket").toString());
-            cookie.setPath(contentPath);    // 用于干嘛的？
+            cookie.setPath(contentPath);    // 用于干嘛的？  是用于设置有效路径（范围
             cookie.setMaxAge(seconds);
             // cookie发送到页面
             response.addCookie(cookie);

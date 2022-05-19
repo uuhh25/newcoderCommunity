@@ -12,4 +12,6 @@ public interface LoginTicketMapper {
     LoginTicket selectByTicket(String ticket);
 
     int updateStatus(String ticket,int status);
+
+    LoginTicket selectByUserId(int userId);
 }
