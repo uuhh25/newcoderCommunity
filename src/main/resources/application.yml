@@ -36,3 +36,4 @@ logging:
 
 # 配置域名之类的，自定义的
 community.path.domain: http://localhost:8080
+community.path.upload: E:\Code_Study\Project\upload

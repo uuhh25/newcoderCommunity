@@ -43,6 +43,7 @@ public class LoginController implements newCoderConstant {
     @Value("server.servlet.context-path")
     private String contentPath;
 
+
     // 拦截注册页面的请求，让请求返回我们解析过的页面
     @RequestMapping(value = "/register",method = RequestMethod.GET)
     public String getRegisterPage(){
