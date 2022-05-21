@@ -23,8 +23,6 @@ public class MailClient {
     @Autowired
     private JavaMailSender mailSender;
 
-
-
     // 起始邮箱
     @Value("${spring.mail.username}")
     private String from;
