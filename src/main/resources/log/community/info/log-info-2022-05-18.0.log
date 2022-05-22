@@ -1,0 +1,164 @@
+2022-05-18 19:36:19,820 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 83576 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:36:19,875 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:36:26,958 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:36:27,712 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 9.887 seconds (JVM running for 15.848)
+2022-05-18 19:36:36,437 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:36:37,684 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:37:05,622 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:37:05,649 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:37:14,885 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 89320 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:37:14,889 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:37:21,564 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:37:22,724 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 9.04 seconds (JVM running for 12.075)
+2022-05-18 19:37:28,920 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:37:30,305 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:38:09,890 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:38:09,916 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:38:38,399 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 29924 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:38:38,403 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:38:44,179 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:38:44,977 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 7.673 seconds (JVM running for 10.753)
+2022-05-18 19:38:48,252 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:38:49,319 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:39:08,911 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:39:08,938 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:39:19,160 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 90236 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:39:19,165 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:39:27,504 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:39:28,793 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 11.6 seconds (JVM running for 15.992)
+2022-05-18 19:40:04,827 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 48212 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:40:04,830 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:40:11,171 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:40:12,273 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 8.625 seconds (JVM running for 11.409)
+2022-05-18 19:40:15,074 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:40:16,617 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:41:47,875 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 90676 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:41:47,880 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:41:54,739 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:41:55,569 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 8.816 seconds (JVM running for 12.986)
+2022-05-18 19:41:56,456 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:41:56,849 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:41:57,160 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:41:57,181 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:42:16,314 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:42:16,345 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:42:24,352 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 24172 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:42:24,356 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:42:29,238 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:42:30,701 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 7.589 seconds (JVM running for 10.286)
+2022-05-18 19:42:34,964 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:42:36,424 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:45:13,873 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:45:13,911 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:45:20,985 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 57032 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:45:21,000 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:45:26,414 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:45:27,191 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 7.204 seconds (JVM running for 9.798)
+2022-05-18 19:45:29,785 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:45:30,884 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:46:05,138 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:46:05,172 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:46:49,862 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 69268 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:46:49,866 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:46:55,560 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:46:56,138 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 7.347 seconds (JVM running for 10.844)
+2022-05-18 19:46:59,435 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:47:00,753 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:48:07,377 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 84172 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:48:07,381 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:48:11,905 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:48:12,449 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 6.332 seconds (JVM running for 9.017)
+2022-05-18 19:48:12,761 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:48:13,043 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:48:13,353 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:48:13,372 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:48:43,933 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 11752 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:48:43,936 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:48:47,892 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:48:48,345 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 5.134 seconds (JVM running for 7.343)
+2022-05-18 19:48:48,680 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:48:48,907 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:48:49,028 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:48:49,055 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:49:02,172 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:49:02,196 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 19:49:08,674 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:55] Starting LoginTicketTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 21680 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 19:49:08,677 INFO [main] c.e.n.LoginTicketTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 19:49:14,281 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 19:49:15,125 INFO [main] c.e.n.LoginTicketTest [StartupInfoLogger.java:61] Started LoginTicketTest in 7.377 seconds (JVM running for 10.354)
+2022-05-18 19:49:18,329 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 19:49:19,321 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 19:49:28,756 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 19:49:28,844 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 20:26:16,878 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 16552 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 20:26:16,885 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 20:26:19,079 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-18 20:26:19,095 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:26:19,096 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-18 20:26:19,096 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-18 20:26:19,396 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-18 20:26:19,396 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2412 ms
+2022-05-18 20:26:21,062 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 20:26:21,235 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:26:21,264 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-18 20:26:21,301 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.078 seconds (JVM running for 9.033)
+2022-05-18 20:26:29,586 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 20:26:29,587 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-18 20:26:29,594 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2022-05-18 20:27:23,261 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 80804 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 20:27:23,265 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 20:27:24,760 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-18 20:27:24,768 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:27:24,769 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-18 20:27:24,769 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-18 20:27:24,936 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-18 20:27:24,937 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1604 ms
+2022-05-18 20:27:26,241 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 20:27:26,371 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:27:26,393 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-18 20:27:26,420 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.15 seconds (JVM running for 5.889)
+2022-05-18 20:27:26,710 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 20:27:26,711 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-18 20:27:26,713 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-18 20:27:26,849 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 20:27:27,029 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 20:37:42,864 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 20:37:42,885 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 20:37:51,515 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 92340 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 20:37:51,522 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 20:37:53,419 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-18 20:37:53,434 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:37:53,435 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-18 20:37:53,435 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-18 20:37:53,736 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-18 20:37:53,741 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2119 ms
+2022-05-18 20:37:55,294 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 20:37:55,457 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:37:55,478 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-18 20:37:55,509 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.95 seconds (JVM running for 6.364)
+2022-05-18 20:37:55,592 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 20:37:55,593 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-18 20:37:55,595 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-18 20:38:00,720 INFO [http-nio-8080-exec-5] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 20:38:00,890 INFO [http-nio-8080-exec-5] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 20:45:05,066 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 20:45:05,079 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-18 20:45:18,178 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 10620 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-18 20:45:18,183 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 20:45:20,956 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-18 20:45:20,966 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:45:20,967 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-18 20:45:20,968 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-18 20:45:21,218 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-18 20:45:21,220 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2888 ms
+2022-05-18 20:45:23,013 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-18 20:45:23,260 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-18 20:45:23,296 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-18 20:45:23,337 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.602 seconds (JVM running for 8.695)
+2022-05-18 20:45:23,709 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-18 20:45:23,710 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-18 20:45:23,712 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-18 20:45:23,876 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-18 20:45:24,385 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-18 20:57:08,437 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-18 20:57:08,447 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

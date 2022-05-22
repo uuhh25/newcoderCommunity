@@ -1,0 +1,102 @@
+2022-05-15 19:17:23,414 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 7456 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 19:17:23,421 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 19:17:25,761 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-15 19:17:25,830 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-15 19:17:25,847 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-15 19:17:25,878 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-15 19:17:26,489 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-15 19:17:26,491 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 3014 ms
+2022-05-15 19:17:28,393 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 19:17:28,630 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-15 19:17:28,652 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-15 19:17:28,685 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.077 seconds (JVM running for 7.924)
+2022-05-15 19:17:34,205 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-15 19:17:34,206 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-15 19:17:34,208 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-15 19:17:34,251 INFO [http-nio-8080-exec-1] c.e.n.c.HomeController [HomeController.java:60] 日志输出 info
+2022-05-15 19:17:34,258 INFO [http-nio-8080-exec-1] c.e.n.c.HomeController [HomeController.java:64] name:inke,age20
+2022-05-15 19:17:34,259 INFO [http-nio-8080-exec-1] c.e.n.c.HomeController [HomeController.java:65] name:inke,age:20
+2022-05-15 21:57:18,144 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 88740 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 21:57:18,146 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 21:57:23,701 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 21:57:24,809 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 7.787 seconds (JVM running for 10.526)
+2022-05-15 22:02:57,778 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 44888 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:02:57,781 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:03:01,739 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:03:02,225 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 5.695 seconds (JVM running for 8.271)
+2022-05-15 22:03:43,879 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 62616 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:03:43,882 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:03:48,212 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:03:49,615 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 6.665 seconds (JVM running for 8.307)
+2022-05-15 22:05:29,671 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 85628 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:05:29,674 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:05:33,248 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:05:33,699 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 4.75 seconds (JVM running for 6.124)
+2022-05-15 22:09:59,231 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 7824 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:09:59,233 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:10:03,447 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:10:03,920 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 5.506 seconds (JVM running for 6.883)
+2022-05-15 22:10:15,810 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 68888 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:10:15,813 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:10:19,034 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:10:19,459 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 4.501 seconds (JVM running for 6.014)
+2022-05-15 22:17:14,738 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 66760 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:17:14,744 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:17:18,405 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:17:19,035 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 5.251 seconds (JVM running for 6.684)
+2022-05-15 22:20:25,616 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 72132 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:20:25,627 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:20:33,112 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:20:34,918 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 11.356 seconds (JVM running for 14.637)
+2022-05-15 22:21:29,797 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 71732 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:21:29,811 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:21:38,048 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:21:39,880 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 11.632 seconds (JVM running for 16.939)
+2022-05-15 22:21:53,310 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 68540 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:21:53,313 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:22:02,230 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:22:03,549 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 11.238 seconds (JVM running for 15.318)
+2022-05-15 22:23:39,624 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 11592 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:23:39,627 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:23:44,930 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:23:45,691 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 6.976 seconds (JVM running for 9.35)
+2022-05-15 22:24:19,540 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 46868 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:24:19,543 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:24:24,547 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:24:25,188 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 6.989 seconds (JVM running for 8.685)
+2022-05-15 22:25:18,359 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 60772 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:25:18,364 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:25:24,176 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:25:25,211 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 8.02 seconds (JVM running for 9.736)
+2022-05-15 22:25:41,319 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 56172 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:25:41,321 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:25:48,260 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:25:48,890 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 8.392 seconds (JVM running for 10.037)
+2022-05-15 22:26:39,769 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 25200 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:26:39,772 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:26:43,579 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:26:44,200 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 5.706 seconds (JVM running for 7.873)
+2022-05-15 22:28:39,530 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 54560 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:28:39,534 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:28:44,381 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:28:45,167 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 6.705 seconds (JVM running for 10.066)
+2022-05-15 22:29:52,979 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 30444 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:29:52,982 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:29:57,531 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:29:58,321 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 6.241 seconds (JVM running for 8.41)
+2022-05-15 22:32:42,565 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 11172 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:32:42,573 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:32:47,479 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:32:48,532 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 8.238 seconds (JVM running for 11.906)
+2022-05-15 22:33:18,213 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 16404 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:33:18,215 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:33:23,289 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:33:24,163 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 7.023 seconds (JVM running for 10.611)
+2022-05-15 22:41:27,814 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 23848 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:41:27,820 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:41:37,961 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:41:38,879 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:55] Starting MailTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 88424 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-15 22:41:38,883 INFO [main] c.e.n.MailTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-15 22:41:41,018 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 16.286 seconds (JVM running for 18.721)
+2022-05-15 22:41:47,911 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-15 22:41:50,669 INFO [main] c.e.n.MailTest [StartupInfoLogger.java:61] Started MailTest in 14.662 seconds (JVM running for 19.476)
