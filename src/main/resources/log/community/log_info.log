@@ -80,3 +80,144 @@
 2022-05-21 20:00:35,343 INFO [main] c.e.n.SensitiveWordTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
 2022-05-21 20:00:39,985 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
 2022-05-21 20:00:40,563 INFO [main] c.e.n.SensitiveWordTest [StartupInfoLogger.java:61] Started SensitiveWordTest in 6.264 seconds (JVM running for 8.202)
+2022-05-21 21:32:35,806 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 73584 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 21:32:35,813 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 21:32:38,016 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 21:32:38,032 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 21:32:38,033 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 21:32:38,033 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 21:32:38,383 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 21:32:38,384 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2474 ms
+2022-05-21 21:32:40,904 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 21:32:41,259 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 21:32:41,319 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 21:32:41,375 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.941 seconds (JVM running for 10.125)
+2022-05-21 21:33:19,635 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 21:33:19,636 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 21:33:19,639 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
+2022-05-21 22:19:48,092 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 35176 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:19:48,101 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:19:50,337 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:19:50,350 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:19:50,351 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:19:50,352 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:19:50,645 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:19:50,650 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2427 ms
+2022-05-21 22:19:53,300 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:19:53,563 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:19:53,635 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:19:53,706 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 7.202 seconds (JVM running for 10.098)
+2022-05-21 22:19:53,786 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:19:53,787 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:19:53,789 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-21 22:19:54,199 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:19:54,667 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:31:18,966 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:31:18,978 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-21 22:31:26,404 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 10168 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:31:26,410 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:31:32,315 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:31:32,325 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:31:32,327 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:31:32,328 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:31:32,775 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:31:32,783 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 6284 ms
+2022-05-21 22:31:37,086 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:31:37,368 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:31:37,422 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:31:37,465 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 12.671 seconds (JVM running for 15.211)
+2022-05-21 22:32:30,372 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 11620 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:32:30,377 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:32:31,980 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:32:31,990 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:32:31,991 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:32:31,991 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:32:32,210 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:32:32,212 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1704 ms
+2022-05-21 22:32:34,136 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:32:34,441 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:32:34,505 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:32:34,551 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.297 seconds (JVM running for 7.265)
+2022-05-21 22:32:48,723 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:32:48,723 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:32:48,726 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-05-21 22:32:49,068 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:32:49,402 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:34:30,372 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:34:30,471 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-21 22:34:39,264 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 16992 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:34:39,268 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:34:40,993 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:34:41,011 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:34:41,013 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:34:41,013 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:34:41,221 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:34:41,221 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1902 ms
+2022-05-21 22:34:43,046 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:34:43,284 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:34:43,327 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:34:43,366 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.098 seconds (JVM running for 7.014)
+2022-05-21 22:35:16,208 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:35:16,208 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:35:16,211 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
+2022-05-21 22:35:16,361 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:35:16,650 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:37:27,861 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:37:27,871 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-21 22:37:34,003 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 7792 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:37:34,050 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:37:35,899 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:37:35,908 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:37:35,910 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:37:35,912 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:37:36,100 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:37:36,101 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1914 ms
+2022-05-21 22:37:37,951 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:37:38,263 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:37:38,373 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:37:38,503 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.234 seconds (JVM running for 7.799)
+2022-05-21 22:38:03,866 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:38:03,867 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:38:03,868 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-05-21 22:38:03,957 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:38:04,389 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:38:52,802 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:38:52,817 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-21 22:40:02,600 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 1212 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:40:02,603 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:40:03,899 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:40:03,916 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:40:03,920 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:40:03,921 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:40:04,190 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:40:04,190 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1526 ms
+2022-05-21 22:40:06,689 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:40:07,074 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:40:07,125 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:40:07,182 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.324 seconds (JVM running for 7.784)
+2022-05-21 22:40:09,152 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:40:09,153 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:40:09,157 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 4 ms
+2022-05-21 22:40:09,269 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:40:09,571 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:42:17,222 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:42:17,231 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-21 22:42:25,696 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 43808 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-21 22:42:25,700 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-21 22:42:26,921 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-21 22:42:26,932 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:42:26,933 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-21 22:42:26,933 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-21 22:42:27,099 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-21 22:42:27,099 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1344 ms
+2022-05-21 22:42:29,021 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-21 22:42:29,304 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-21 22:42:29,369 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-21 22:42:29,413 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.509 seconds (JVM running for 7.685)
+2022-05-21 22:42:44,545 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-21 22:42:44,545 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-21 22:42:44,551 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 5 ms
+2022-05-21 22:42:44,670 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-21 22:42:44,918 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-21 22:51:40,953 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-21 22:51:40,962 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

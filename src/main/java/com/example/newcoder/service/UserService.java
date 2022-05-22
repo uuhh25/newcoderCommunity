@@ -148,11 +148,11 @@ public class UserService implements newCoderConstant {
         }
 
         // 是否已有登录凭证且未过期
-        final LoginTicket lTicket = loginTicketMapper.selectByUserId(user.getId());
-        if (lTicket!=null && lTicket.getStatus()==0 && lTicket.getExpired().after(new Date())){
-            map.put("ticket",lTicket.getTicket());
-            return map;
-        }
+        //final LoginTicket lTicket = loginTicketMapper.selectByUserId(user.getId());
+        //if (lTicket!=null && lTicket.getStatus()==0 && lTicket.getExpired().after(new Date())){
+        //    map.put("ticket",lTicket.getTicket());
+        //    return map;
+        //}
 
         // 如果都没错，则生成登录凭证
         final LoginTicket loginTicket = new LoginTicket();

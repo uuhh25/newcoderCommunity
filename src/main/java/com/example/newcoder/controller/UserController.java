@@ -1,6 +1,6 @@
 package com.example.newcoder.controller;
 
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+
 import com.example.newcoder.annotation.LoginRequired;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.service.UserService;
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.multipart.MultipartFile;
+import org.thymeleaf.util.StringUtils;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
@@ -61,7 +62,7 @@ public class UserController {
 
         String fileName = headerImage.getOriginalFilename();
         String suffix = fileName.substring(fileName.lastIndexOf("."));
-        if (StringUtils.isBlank(suffix)) {
+        if (StringUtils.isEmptyOrWhitespace(suffix)) {
             model.addAttribute("error", "文件的格式不正确!");
             return "/site/setting";
         }
