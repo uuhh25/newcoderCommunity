@@ -24,4 +24,12 @@ public interface newCoderConstant {
      * remember me登录凭证过期时间
      * */
     int REMEMBER_EXPIRED_SECONDS=3600*24*10;
+
+    /**
+     * 实体类型：帖子
+    * */
+    int ENTITY_POST=1;/**
+     * 实体类型：ping评论
+    * */
+    int ENTITY_COMMENT=2;
 }

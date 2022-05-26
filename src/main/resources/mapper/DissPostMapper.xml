@@ -29,9 +29,19 @@
         </if>
     </select>
 
-    <insert id="insertDiscussPost" parameterType="com.example.newcoder.entity.DiscussPost">
+    <select id="selectDicussPostById" resultType="com.example.newcoder.entity.DiscussPost">
+        select <include refid="selectFields"></include>
+        from discuss_post
+        where id=#{id}
+    </select>
+
+    <insert id="insertDiscussPost" parameterType="com.example.newcoder.entity.DiscussPost" keyProperty="id">
         insert into discuss_post (<include refid="insertFields"></include>)
         values (#{userId},#{title},#{content},#{type},#{status},#{createTime},#{commentCount},#{score});
     </insert>
+
+    <update id="updatePostCommentCount">
+        update discuss_post set comment_count = #{commentCount} where id = #{id}
+    </update>
 
 </mapper>

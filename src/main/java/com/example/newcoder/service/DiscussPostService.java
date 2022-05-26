@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
-
+@SuppressWarnings({"all"})
 @Service
 public class DiscussPostService {
 
@@ -39,6 +39,16 @@ public class DiscussPostService {
         String scontent=sensitiveFilter.filter(discussPost.getContent());
 
         return discussPostMapper.insertDiscussPost(discussPost);
+    }
+
+    // 根据id查询帖子详情
+    public DiscussPost selectDiscusspost(int id){
+        return discussPostMapper.selectDicussPostById(id);
+    }
+
+    // 更新帖子的评论数量
+    public int updateCommentCount(int id,int commentCount){
+        return discussPostMapper.updatePostCommentCount(id,commentCount);
     }
 
 }
