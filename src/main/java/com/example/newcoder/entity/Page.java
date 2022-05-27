@@ -9,7 +9,7 @@ public class Page {
     private int current=1;  // 默认页
     private int limit=10;   // 每页的上限
     private int rows;  // 用于计算总页数
-    private String path;    // 用于复用页面链接
+    private String path;    // 设置分页页面的路径
 
 
 

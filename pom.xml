@@ -42,7 +42,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.0</version>
+            <version>3.5.1</version>
         </dependency>
         <!--简化实体类,用@Data代替getset方法-->
         <dependency>

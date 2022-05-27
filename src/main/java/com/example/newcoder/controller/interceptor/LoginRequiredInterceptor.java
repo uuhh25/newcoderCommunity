@@ -2,7 +2,6 @@ package com.example.newcoder.controller.interceptor;
 
 import com.example.newcoder.annotation.LoginRequired;
 import com.example.newcoder.util.HostHolder;
-import org.apache.catalina.Host;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;

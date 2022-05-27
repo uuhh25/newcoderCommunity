@@ -5,13 +5,11 @@ import com.example.newcoder.entity.LoginTicket;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
-import org.apache.catalina.Host;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
