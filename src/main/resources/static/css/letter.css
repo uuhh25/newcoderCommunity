@@ -13,4 +13,10 @@
 .toast {
 	max-width: 100%;
 	width: 80%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.headerUrl{
+	float: right;
+	right: 68px;
 }

@@ -41,12 +41,20 @@ public class HomeController {
                 Map<String, Object> map = new HashMap<>();
                 map.put("post", post);
                 User user = userService.findUserById(post.getUserId());
+                if (user==null) {
+                    continue;
+                }
                 map.put("user", user);
                 discussPosts.add(map);
             }
         }
         model.addAttribute("discussPosts", discussPosts);
         return "/index";
+    }
+
+    @RequestMapping(value = "/error",method = RequestMethod.GET)
+    public String getErrorPage(){
+        return "/error/500";
     }
 
     @RequestMapping("/log")

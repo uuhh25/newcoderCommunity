@@ -55,7 +55,7 @@ public class AlphaService {
         discussPostMapper.insertDiscussPost(post);
 
         // 设置一个错误点，用于回滚
-        Integer.valueOf("abc");
+        // Integer.valueOf("abc");
 
         return "ok";
     }
@@ -88,8 +88,6 @@ public class AlphaService {
                 post.setContent("我是新人!");
                 post.setCreateTime(new Date());
                 discussPostMapper.insertDiscussPost(post);
-
-                Integer.valueOf("abc");
 
                 return "ok";
             }

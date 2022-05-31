@@ -7,17 +7,16 @@ import com.example.newcoder.entity.User;
 import com.example.newcoder.service.MessageService;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
+import com.example.newcoder.util.newCoderUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @SuppressWarnings({"all"})
 @Controller
@@ -36,6 +35,9 @@ public class MessageController {
     @RequestMapping(value = "/letter/list",method = RequestMethod.GET)
     public String getLetterList(Model model, Page page){
         User user = hostHolder.getUser();
+        if (user==null){
+            return "/site/login";
+        }
         // 分页信息
         page.setLimit(5);
         page.setPath("/letter/list");
@@ -73,6 +75,9 @@ public class MessageController {
     @RequestMapping(value = "/letter/detail/{conversationId}",method = RequestMethod.GET)
     public String getLetterDetail(@PathVariable("conversationId") String conversationId,Page page,Model model){
         User user = hostHolder.getUser();
+        if (user==null){
+            return "/index";
+        }
         // 分页信息
         page.setLimit(5);
         page.setPath("/letter/detail/" +conversationId);
@@ -86,7 +91,15 @@ public class MessageController {
             for (Message letter : lettersList) {
                 Map<String,Object> map=new HashMap<>();
                 map.put("letter",letter);
-                map.put("fromUser",userService.findUserById(letter.getFromId()));
+                // 存清楚发送方和接收方
+                if (hostHolder.getUser().getId() != letter.getFromId()){
+                    map.put("fromUser",userService.findUserById(letter.getFromId()));
+                    map.put("toUser",null);
+                }else {
+                    // 接收方
+                    map.put("fromUser",null);
+                    map.put("toUser",userService.findUserById(hostHolder.getUser().getId()));
+                }
 
                 letters.add(map);
             }
@@ -95,6 +108,12 @@ public class MessageController {
 
         // 从conversationId获取当前发送私信的用户
         model.addAttribute("target",generateUser(conversationId));
+
+        // 设置已读
+        List<Integer> ids=getLettersIds(lettersList);
+        if(!ids.isEmpty()){
+            messageService.readMessage(ids);
+        }
 
         return "/site/letter-detail";
     }
@@ -110,7 +129,48 @@ public class MessageController {
         else {
             return userService.findUserById(d0);
         }
+    }
 
+    // 发送私信的请求
+    @RequestMapping(value = "/letter/send",method = RequestMethod.POST)
+    @ResponseBody   // 异步
+    public String sendLetter(String toName,String content){
+        // 通过name找user的信息
+        User target = userService.findUserByName(toName);
+        // 空值处理
+        if (target==null){
+            return newCoderUtil.getJSONString(1,"目标用户不存在");
+        }
+
+        Message message=new Message();
+        message.setFromId(hostHolder.getUser().getId());
+        message.setToId(target.getId());
+        // 小的id在前
+        if (message.getFromId() < message.getToId()){
+            message.setConversationId(message.getFromId()+"_"+ message.getToId());
+        }else {
+            message.setConversationId(message.getToId()+"_"+ message.getFromId());
+        }
+        message.setStatus(0);
+        message.setContent(content);
+        message.setCreateTime(new Date());
+
+        messageService.addMessage(message);
+
+        return newCoderUtil.getJSONString(0);   // 没有报错，则返回0
+    }
+
+    // 获取可能要修改状态的ids
+    private List<Integer> getLettersIds(List<Message> letterList){
+        List<Integer> ids=new ArrayList<>();
+        if (letterList!=null){
+            for (Message message : letterList) {
+                if (hostHolder.getUser().getId() == message.getToId() && message.getStatus() == 0) {
+                    ids.add(message.getId());   // 消息的id
+                }
+            }
+        }
+        return ids;
     }
 
 }

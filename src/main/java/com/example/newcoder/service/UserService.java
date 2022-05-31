@@ -41,6 +41,8 @@ public class UserService implements newCoderConstant {
     @Value("${server.servlet.context-path}")
     private String contextPath;
 
+    public User findUserByName(String name){ return userMapper.selectByName(name);}
+
     public User findUserById(int id) {
         return userMapper.selectById(id);
     }

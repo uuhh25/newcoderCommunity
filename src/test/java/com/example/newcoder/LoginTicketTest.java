@@ -28,11 +28,11 @@ public class LoginTicketTest {
 
     @Test
     public void test02(){
-        final LoginTicket loginTicket = loginTicketMapper.selectByTicket("213");
+        final LoginTicket loginTicket = loginTicketMapper.selectByTicket("000");
         System.out.println(loginTicket);
 
-        final int i = loginTicketMapper.updateStatus("213", 1);
-        System.out.println(i);
+        // final int i = loginTicketMapper.updateStatus("213", 1);
+        // System.out.println(i);
     }
 
 }
