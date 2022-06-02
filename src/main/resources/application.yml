@@ -16,6 +16,10 @@ spring:
     properties.mail.smtp.ssl.enable: true #开启SSL
     protocol: smtp
     default-encoding: utf-8
+  redis:
+    database: 11  # 选择redis中的库
+    host: localhost
+    port: 6379
 
 # 配置mybatis-plus的日志信息
 mybatis-plus:

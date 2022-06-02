@@ -4,7 +4,9 @@ import com.example.newcoder.entity.DiscussPost;
 import com.example.newcoder.entity.Page;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.service.DiscussPostService;
+import com.example.newcoder.service.LikeService;
 import com.example.newcoder.service.UserService;
+import com.example.newcoder.util.newCoderConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,12 +21,15 @@ import java.util.Map;
 
 @Slf4j
 @Controller
-public class HomeController {
+public class HomeController implements newCoderConstant {
     // 根据service 业务层，对视图层进行处理
     @Autowired
     private DiscussPostService discussPostService;
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private LikeService likeService;
 
     // 首页访问，并且显示首页的帖子
     @RequestMapping(path = {"","/index"},method = RequestMethod.GET)
@@ -45,6 +50,8 @@ public class HomeController {
                     continue;
                 }
                 map.put("user", user);
+                long likeCount = likeService.findEntityLikeCount(ENTITY_POST, post.getId());
+                map.put("likeCount",likeCount);
                 discussPosts.add(map);
             }
         }

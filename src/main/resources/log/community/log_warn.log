@@ -1,4 +1,4 @@
-2022-05-30 15:00:00,668 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+2022-06-01 15:10:35,625 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -7,9 +7,5 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2022-05-30 15:04:51,227 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s618ms540µs200ns).
-2022-05-30 15:08:18,525 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s412ms749µs).
-2022-05-30 15:11:12,602 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s253ms845µs200ns).
-2022-05-30 15:12:08,360 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s758ms357µs300ns).
-2022-05-30 15:13:06,750 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s389ms703µs900ns).
-2022-05-30 15:20:52,104 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s495ms224µs700ns).
+2022-06-01 20:29:10,807 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s912ms559µs600ns).
+2022-06-01 20:30:16,596 WARN [http-nio-8080-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver [AbstractHandlerExceptionResolver.java:208] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "profile.html"]

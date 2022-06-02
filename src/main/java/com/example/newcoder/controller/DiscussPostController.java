@@ -9,6 +9,7 @@ import com.example.newcoder.entity.Page;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.service.CommentService;
 import com.example.newcoder.service.DiscussPostService;
+import com.example.newcoder.service.LikeService;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
 import com.example.newcoder.util.newCoderConstant;
@@ -38,6 +39,9 @@ public class DiscussPostController implements newCoderConstant {
     @Autowired
     private HostHolder hostHolder;  // 线程存储
 
+    @Autowired
+    private LikeService likeService;
+
     //  客户端发送请求
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     public String addDiscusPost(String title,String content){
@@ -66,8 +70,13 @@ public class DiscussPostController implements newCoderConstant {
         model.addAttribute("post",post);
         // 根据userId获得用户的信息，或者在sql语句中联合查询
         User user = userService.findUserById(post.getUserId());
-        model.addAttribute("user",user);
+        model.addAttribute("poster",user);
         model.addAttribute("username",user.getUsername());
+
+        long likeCount = likeService.findEntityLikeCount(ENTITY_POST, discussPostId);
+        model.addAttribute("likeCount",likeCount);
+        int likeStatus = hostHolder.getUser()==null? 0 : likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_POST, discussPostId);
+        model.addAttribute("likeStatus",likeStatus);
 
         // 补充评论的信息
             // 评论的分页信息
@@ -87,6 +96,12 @@ public class DiscussPostController implements newCoderConstant {
             for (Comment comment : commentList) {
                 // 评论VO
                 Map<String, Object> commentVo = new HashMap<>();
+                //
+                likeCount = likeService.findEntityLikeCount(ENTITY_COMMENT, comment.getId());
+                likeStatus = hostHolder.getUser()==null? 0 : likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_COMMENT, comment.getId());
+                // 评论的点赞数量和状态
+                commentVo.put("likeCount", likeCount);
+                commentVo.put("likeStatus", likeStatus);
                 // 评论
                 commentVo.put("comment", comment);
                 // 作者
@@ -100,6 +115,11 @@ public class DiscussPostController implements newCoderConstant {
                 if (replyList != null) {
                     for (Comment reply : replyList) {
                         Map<String, Object> replyVo = new HashMap<>();
+                        likeCount = likeService.findEntityLikeCount(ENTITY_COMMENT, reply.getId());
+                        likeStatus = hostHolder.getUser()==null? 0 : likeService.findEntityLikeStatus(hostHolder.getUser().getId(), ENTITY_COMMENT, reply.getId());
+                        // 回复的点赞数量
+                        replyVo.put("likeCount", likeCount);
+                        replyVo.put("likeStatus", likeStatus);
                         // 对该评论的回复
                         replyVo.put("reply", reply);
                         // 回复的用户
@@ -116,6 +136,8 @@ public class DiscussPostController implements newCoderConstant {
                 // 回复数量
                 int replyCount = commentService.findCommentCount(ENTITY_COMMENT, comment.getId());
                 commentVo.put("replyCount", replyCount);
+
+                // 评论点赞数量
 
                 commentVoList.add(commentVo);
             }
