@@ -18,36 +18,27 @@ public class LikeService {
 
     // 点赞,特指要传入entityUserId
     public void like(int userId,int entityType,int entityId,int entityUserId){
-        String entityLikeKey = RedisKeyUtil.getEntityLikeKey(entityType,entityId);
-        // 判断点赞的状态
-        Boolean isLiked = redisTemplate.opsForSet().isMember(entityLikeKey, userId);
-        if(isLiked){
-            redisTemplate.opsForSet().remove(entityLikeKey,userId);
-        }else {
-            redisTemplate.opsForSet().add(entityLikeKey,userId);
-        }
-
         // 开启redis事务
-//        redisTemplate.execute(new SessionCallback() {
-//            @Override
-//            public Object execute(RedisOperations operations) throws DataAccessException {
-//                String entityLikeKey = RedisKeyUtil.getEntityLikeKey(entityType,entityId);
-//                String userLikeKey = RedisKeyUtil.getUserLikeKey(entityUserId); // 被赞的这个人
-//
-//                // 判断点赞的状态
-//                Boolean isLiked = redisTemplate.opsForSet().isMember(entityLikeKey, userId);
-//                operations.multi();
-//                // 判断是否需要修改点赞状态,已经修改被点赞用户赞的数量
-//                if(isLiked){
-//                    operations.opsForSet().remove(entityLikeKey,userId);
-//                    operations.opsForValue().decrement(userLikeKey);
-//                }else {
-//                    operations.opsForSet().add(entityLikeKey,userId);
-//                    operations.opsForValue().increment(userLikeKey);
-//                }
-//                return operations.exec();
-//            }
-//        });
+        redisTemplate.execute(new SessionCallback() {
+            @Override
+            public Object execute(RedisOperations operations) throws DataAccessException {
+                String entityLikeKey = RedisKeyUtil.getEntityLikeKey(entityType,entityId);
+                String userLikeKey = RedisKeyUtil.getUserLikeKey(entityUserId); // 被赞的这个人
+
+                // 判断点赞的状态
+                Boolean isLiked = redisTemplate.opsForSet().isMember(entityLikeKey, userId);
+                operations.multi();
+                // 判断是否需要修改点赞状态,已经修改被点赞用户赞的数量
+                if(isLiked){
+                    operations.opsForSet().remove(entityLikeKey,userId);
+                    operations.opsForValue().decrement(userLikeKey);
+                }else {
+                    operations.opsForSet().add(entityLikeKey,userId);
+                    operations.opsForValue().increment(userLikeKey);
+                }
+                return operations.exec();
+            }
+        });
     }
 
     // 统计点赞数量
@@ -66,6 +57,13 @@ public class LikeService {
         }else {
             return 0;
         }
+    }
+
+    // 查询某个用户获得的赞的数量
+    public int findUserLikeCount(int userId){
+        String userLikeKey = RedisKeyUtil.getUserLikeKey(userId); // 被赞的这个人
+        Integer count = (Integer) redisTemplate.opsForValue().get(userLikeKey);
+        return count==null ? 0 : count;
     }
 
 }
