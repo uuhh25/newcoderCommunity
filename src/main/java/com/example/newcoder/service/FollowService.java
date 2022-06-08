@@ -1,6 +1,10 @@
 package com.example.newcoder.service;
 
+import com.example.newcoder.entity.Page;
+import com.example.newcoder.entity.User;
 import com.example.newcoder.util.RedisKeyUtil;
+import com.example.newcoder.util.newCoderConstant;
+import com.sun.corba.se.spi.ior.ObjectKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
@@ -8,15 +12,17 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.SessionCallback;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
+import java.util.*;
 
 @SuppressWarnings({"all"})
 @Service
-public class FollowService {
+public class FollowService implements newCoderConstant {
 
     // 用redis存储关注和粉丝
     @Autowired
     private RedisTemplate redisTemplate;
+    @Autowired
+    private UserService userService;
 
     // 用户的关注的实体数量
     public long findFollowCount(int userId,int entityType){
@@ -84,5 +90,47 @@ public class FollowService {
                 return null;
             }
         });
+    }
+
+    // 查询某个用户关注的 用户，支持分页
+    public List<Map<String, Object>> findFollowees(int userId, int offset,int limit){
+        String followeeKey = RedisKeyUtil.getFolloweeKey(userId, ENTITY_USER);
+        // 都是关注的用户id
+        Set<Integer> targetIds= redisTemplate.opsForZSet().reverseRange(followeeKey, offset, offset + limit - 1);
+        if (targetIds==null){
+            return null;
+        }
+        List<Map<String ,Object>> res=new ArrayList<>();
+        for (Integer targetId : targetIds) {
+            // 用map存每个user的信息
+            Map<String,Object> map=new HashMap<>();
+            User user = userService.findUserById(targetId);
+            map.put("user",user );
+            Double score = redisTemplate.opsForZSet().score(followeeKey, targetId);
+            map.put("followTime",new Date(score.longValue()));
+
+            res.add(map);
+        }
+        return res;
+    }
+    // 查询某个用户的粉丝 类别，支持分页
+    public List<Map<String, Object>> findFollowers(int userId, int offset,int limit){
+        String followerKey=RedisKeyUtil.getFollowerKey(ENTITY_USER,userId);
+        Set<Integer> targetIds= redisTemplate.opsForZSet().reverseRange(followerKey, offset, offset + limit - 1);
+        if (targetIds==null){
+            return null;
+        }
+        List<Map<String ,Object>> res=new ArrayList<>();
+        for (Integer targetId : targetIds) {
+            // 用map存每个user的信息
+            Map<String,Object> map=new HashMap<>();
+            User user = userService.findUserById(targetId);
+            map.put("user",user );
+            Double score = redisTemplate.opsForZSet().score(followerKey, targetId);
+            map.put("followTime",new Date(score.longValue()));
+
+            res.add(map);
+        }
+        return res;
     }
 }

@@ -37,6 +37,7 @@ public class HomeController implements newCoderConstant {
         // 方法调用前,SpringMVC会自动实例化Model和Page,并将Page注入Model.
         // 所以,在thymeleaf中可以直接访问Page对象中的数据.
         page.setRows(discussPostService.countDiscussPost(0));
+        page.setLimit(10);
         page.setPath("/index");
 
         List<DiscussPost> list = discussPostService.findDiscussPosts(0,page.getOffset(),page.getLimit());

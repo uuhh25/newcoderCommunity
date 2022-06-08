@@ -17,6 +17,7 @@ import java.util.Date;
 
 import static com.example.newcoder.util.cookieUtil.getValue;
 
+@SuppressWarnings({"all"})
 @Component
 public class LoginTicketInterceptor implements HandlerInterceptor {
 
@@ -45,6 +46,7 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
 
     }
 
+    // 把登录的用户信息从线程中取出，放入到模板引擎中！！
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         // 在模板引擎解析之前，要使用查询到的用户信息，即我们从线程中获取
