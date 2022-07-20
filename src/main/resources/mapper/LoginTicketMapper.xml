@@ -10,7 +10,7 @@
     </sql>
 
     <insert id="insertLoginTicket" keyProperty="id" parameterType="com.example.newcoder.entity.LoginTicket">
-        insert into login_ticket (<include refid="insertFields"></include>)
+        insert into login_ticket (user_id, ticket, status, expired)
         values(#{userId},#{ticket},#{status},#{expired})
     </insert>
 
@@ -20,7 +20,7 @@
     </select>
 
     <select id="selectByUserId" resultType="com.example.newcoder.entity.LoginTicket">
-        select <include refid="selectFields"></include>
+        select id, user_id, ticket, status, expired
         from login_ticket where user_id = #{userId};
     </select>
     

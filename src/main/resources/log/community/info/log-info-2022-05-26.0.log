@@ -1,0 +1,82 @@
+2022-05-26 21:11:31,140 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 30824 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:11:31,178 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:20:33,144 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 35576 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:20:33,146 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:20:40,285 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:20:41,037 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 9.866 seconds (JVM running for 14.315)
+2022-05-26 21:20:42,030 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:20:42,522 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:20:42,855 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:20:42,894 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:27:17,611 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 35160 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:27:17,614 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:27:22,412 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:27:23,023 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 6.354 seconds (JVM running for 8.485)
+2022-05-26 21:27:23,464 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:27:23,791 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:27:24,247 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:27:24,282 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:28:37,388 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 32812 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:28:37,397 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:28:46,746 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:28:47,636 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 11.388 seconds (JVM running for 13.513)
+2022-05-26 21:28:48,079 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:28:48,612 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:28:48,959 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:28:48,990 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:31:34,144 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 1408 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:31:34,146 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:31:38,719 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:31:39,614 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 6.319 seconds (JVM running for 8.174)
+2022-05-26 21:31:41,048 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:31:41,501 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:31:41,746 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:31:41,769 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:32:33,400 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 36228 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:32:33,402 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:32:37,438 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:32:38,360 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 5.739 seconds (JVM running for 7.243)
+2022-05-26 21:32:38,861 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:32:39,173 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:32:39,368 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:32:39,393 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:33:50,428 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 36044 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:33:50,430 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:33:54,928 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:33:55,439 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 6.057 seconds (JVM running for 8.116)
+2022-05-26 21:33:56,270 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:33:56,917 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:33:57,102 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:33:57,119 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:37:22,345 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 4300 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:37:22,353 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:37:29,513 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:37:32,121 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 10.741 seconds (JVM running for 12.716)
+2022-05-26 21:37:32,639 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:37:33,014 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:37:33,372 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:37:33,404 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:38:00,547 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 9040 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:38:00,549 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:38:05,551 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:38:06,056 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 6.668 seconds (JVM running for 8.795)
+2022-05-26 21:38:07,031 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:38:07,615 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:38:08,385 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:38:08,438 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:39:46,669 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 35536 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:39:46,671 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:39:50,589 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:39:51,125 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 5.34 seconds (JVM running for 6.962)
+2022-05-26 21:39:51,397 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:39:51,610 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:39:51,873 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:39:51,904 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-26 21:40:12,224 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:55] Starting MessageTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 36396 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-26 21:40:12,227 INFO [main] c.e.n.MessageTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-26 21:40:16,561 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-26 21:40:16,954 INFO [main] c.e.n.MessageTest [StartupInfoLogger.java:61] Started MessageTest in 5.488 seconds (JVM running for 6.983)
+2022-05-26 21:40:17,253 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-26 21:40:17,514 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-26 21:40:17,694 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-26 21:40:17,713 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

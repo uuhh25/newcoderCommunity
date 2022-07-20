@@ -1,0 +1,15 @@
+2022-05-30 15:00:00,668 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-30 15:04:51,227 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s618ms540µs200ns).
+2022-05-30 15:08:18,525 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s412ms749µs).
+2022-05-30 15:11:12,602 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s253ms845µs200ns).
+2022-05-30 15:12:08,360 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s758ms357µs300ns).
+2022-05-30 15:13:06,750 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s389ms703µs900ns).
+2022-05-30 15:20:52,104 WARN [HikariPool-1 housekeeper] c.z.h.p.HikariPool [HikariPool.java:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s495ms224µs700ns).

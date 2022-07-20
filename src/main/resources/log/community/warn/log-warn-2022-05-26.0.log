@@ -1,0 +1,91 @@
+2022-05-26 21:11:33,453 WARN [main] o.s.w.c.s.GenericWebApplicationContext [AbstractApplicationContext.java:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMVCConfig': Unsatisfied dependency expressed through field 'loginTicketInterceptor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginTicketInterceptor': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [E:\Code_Study\Project\newcoder\target\classes\com\example\newcoder\dao\UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2022-05-26 21:20:33,113 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:27:17,587 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:28:37,336 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:31:34,120 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:32:33,379 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:33:50,392 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:37:22,290 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:38:00,500 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:39:46,587 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-05-26 21:40:12,172 WARN [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [DuplicateJsonObjectContextCustomizerFactory.java:78] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/F:/Program%20Files/Java/javalib/org/json/json/20131018/json-20131018.jar!/org/json/JSONObject.class
+	jar:file:/F:/Program%20Files/Java/javalib/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+

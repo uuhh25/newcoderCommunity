@@ -33,6 +33,7 @@ public class LoginTicketInterceptor implements HandlerInterceptor {
         String ticket=getValue(request,"ticket");
 
         if (ticket!=null){
+            // 这里本来是用mysql+mapper的，现在改为了redis
             final LoginTicket loginTicket = userService.findTicket(ticket);
             // 检查凭证是否有效
             if (loginTicket!=null && loginTicket.getStatus()!=1 && loginTicket.getExpired().after(new Date())){

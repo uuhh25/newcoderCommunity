@@ -1,0 +1,122 @@
+2022-05-31 20:26:27,769 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 92440 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 20:26:27,776 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 20:26:29,229 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-05-31 20:26:29,239 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-31 20:26:29,240 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-05-31 20:26:29,241 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-31 20:26:29,600 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-05-31 20:26:29,601 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1769 ms
+2022-05-31 20:26:31,033 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 20:26:31,233 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-05-31 20:26:31,254 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-31 20:26:31,282 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.155 seconds (JVM running for 5.218)
+2022-05-31 20:26:37,051 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 20:26:37,051 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-05-31 20:26:37,053 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-05-31 20:26:37,103 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:37],访问了[com.example.newcoder.service.DiscussPostService.countDiscussPost].
+2022-05-31 20:26:37,143 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-05-31 20:26:38,011 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-05-31 20:26:38,242 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.DiscussPostService.findDiscussPosts].
+2022-05-31 20:26:38,270 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,302 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,335 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,338 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,353 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,355 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,358 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,360 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,363 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 20:26:38,367 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-05-31 20:26:38],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-05-31 21:02:55,067 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-05-31 21:02:55,073 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-05-31 21:26:53,642 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 68372 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:26:53,643 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:26:55,841 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:26:55,844 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:26:55,905 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:27:03,511 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:27:04,970 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 12.74 seconds (JVM running for 16.42)
+2022-05-31 21:28:06,027 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 90040 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:28:06,028 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:28:07,487 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:28:07,491 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:28:07,517 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:28:13,199 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:28:14,063 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 8.836 seconds (JVM running for 13.045)
+2022-05-31 21:29:56,401 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 93808 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:29:56,405 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:29:58,375 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:29:58,386 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:29:58,443 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:30:03,166 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:30:04,500 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 9.025 seconds (JVM running for 11.878)
+2022-05-31 21:32:47,226 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 60992 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:32:47,227 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:32:48,445 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:32:48,450 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:32:48,495 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:32:53,684 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:32:54,542 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 7.973 seconds (JVM running for 11.851)
+2022-05-31 21:35:58,159 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 91528 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:35:58,160 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:35:59,065 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:35:59,071 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:35:59,117 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:36:04,008 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:36:04,663 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 7.172 seconds (JVM running for 8.861)
+2022-05-31 21:41:04,193 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 89572 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:41:04,194 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:41:05,393 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:41:05,401 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:41:05,455 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:41:12,480 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:41:13,725 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 10.31 seconds (JVM running for 12.241)
+2022-05-31 21:42:36,356 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 95216 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:42:36,359 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:42:37,578 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:42:37,585 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:42:37,649 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:42:42,257 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:42:42,852 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 7.055 seconds (JVM running for 8.365)
+2022-05-31 21:43:39,447 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 94732 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:43:39,449 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:43:40,314 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:43:40,324 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:43:40,371 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:43:44,114 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:43:44,831 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 5.898 seconds (JVM running for 7.693)
+2022-05-31 21:44:23,753 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 85780 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:44:23,754 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:44:24,633 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:44:24,637 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:44:24,688 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:44:30,844 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:44:32,410 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 9.179 seconds (JVM running for 10.498)
+2022-05-31 21:46:58,812 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 91020 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:46:58,813 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:46:59,962 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:46:59,968 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:47:00,030 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:47:05,801 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:47:06,675 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 8.521 seconds (JVM running for 10.949)
+2022-05-31 21:48:46,011 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 92328 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:48:46,012 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:48:47,068 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:48:47,072 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:48:47,128 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:48:52,633 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:48:53,409 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 8.169 seconds (JVM running for 10.133)
+2022-05-31 21:52:59,614 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 67940 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:52:59,616 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:53:00,741 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:53:00,748 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:53:00,788 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2022-05-31 21:53:05,849 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 21:53:07,112 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 8.106 seconds (JVM running for 9.722)
+2022-05-31 21:59:54,638 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:55] Starting RedisTest using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 94400 (started by w in E:\Code_Study\Project\newcoder)
+2022-05-31 21:59:54,640 INFO [main] c.e.n.RedisTest [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:59:55,933 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-31 21:59:55,938 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-31 21:59:55,991 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-31 22:00:00,653 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-05-31 22:00:01,390 INFO [main] c.e.n.RedisTest [StartupInfoLogger.java:61] Started RedisTest in 7.633 seconds (JVM running for 11.945)

@@ -1,0 +1,434 @@
+2022-06-06 20:27:04,685 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 176792 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:27:04,697 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:27:05,615 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:27:05,618 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:27:05,651 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:27:06,578 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:27:06,587 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:27:06,588 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:27:06,588 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:27:06,966 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:27:06,966 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2211 ms
+2022-06-06 20:27:09,218 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:27:09,590 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:27:09,624 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:27:09,654 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.655 seconds (JVM running for 7.357)
+2022-06-06 20:27:13,976 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:27:13,976 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:27:13,980 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 4 ms
+2022-06-06 20:27:14,031 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:14],访问了[com.example.newcoder.service.DiscussPostService.countDiscussPost].
+2022-06-06 20:27:14,079 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 20:27:14,682 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 20:27:14,823 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:14],访问了[com.example.newcoder.service.DiscussPostService.findDiscussPosts].
+2022-06-06 20:27:14,857 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:14],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:14,897 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:14],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,181 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,188 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,191 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,194 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,195 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,197 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,199 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,204 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,206 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,209 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,210 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,212 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,214 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,216 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,220 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,224 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:16,225 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:16,227 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:16],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 20:27:19,650 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:19],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:27:19,654 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:27:19],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 20:32:44,455 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 20:32:44,464 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 20:33:03,309 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 192900 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:33:03,313 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:33:04,336 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:33:04,339 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:33:04,379 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:33:05,328 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:33:05,357 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:33:05,362 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:33:05,365 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:33:05,698 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:33:05,698 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2312 ms
+2022-06-06 20:33:07,702 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:33:08,051 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:33:08,071 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:33:08,100 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.112 seconds (JVM running for 8.443)
+2022-06-06 20:33:08,133 INFO [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:33:08,133 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:33:08,135 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 20:33:08,205 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:33:08],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:33:08,229 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 20:33:08,466 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 20:33:08,617 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:33:08],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 20:35:03,080 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 20:35:03,093 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 20:35:22,485 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 150516 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:35:22,489 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:35:23,322 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:35:23,325 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:35:23,357 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:35:24,905 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:35:24,922 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:35:24,938 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:35:24,940 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:35:25,220 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:35:25,220 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2677 ms
+2022-06-06 20:35:27,276 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:35:27,887 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:35:27,914 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:35:27,941 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.126 seconds (JVM running for 8.144)
+2022-06-06 20:36:20,076 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 145752 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:36:20,084 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:36:20,994 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:36:20,999 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:36:21,028 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:36:21,891 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:36:21,905 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:36:21,906 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:36:21,906 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:36:22,151 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:36:22,151 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2013 ms
+2022-06-06 20:36:23,966 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:36:24,251 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:36:24,269 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:36:24,295 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.274 seconds (JVM running for 7.388)
+2022-06-06 20:36:45,862 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:36:45,863 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:36:45,864 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-06-06 20:36:45,928 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:36:45],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:36:45,960 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 20:36:46,125 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 20:36:46,411 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:36:46],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 20:38:14,572 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 20:38:14,605 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 20:39:31,415 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 204944 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:39:31,418 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:39:32,228 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:39:32,231 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:39:32,258 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:39:32,994 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:39:33,003 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:39:33,006 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:39:33,006 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:39:33,247 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:39:33,248 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1783 ms
+2022-06-06 20:39:35,162 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:39:35,522 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:39:35,547 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:39:35,573 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.786 seconds (JVM running for 7.169)
+2022-06-06 20:39:35,687 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:39:35,688 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:39:35,690 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 20:39:35,735 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:39:35],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:39:35,766 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 20:39:36,063 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 20:39:36,169 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:39:36],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 20:55:06,293 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 20:55:06,317 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 20:55:23,278 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 210876 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:55:23,282 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:55:23,967 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:55:23,969 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:55:23,998 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:55:24,708 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:55:24,717 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:55:24,718 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:55:24,718 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:55:24,960 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:55:24,961 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1633 ms
+2022-06-06 20:55:27,174 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:55:27,538 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:55:27,567 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:55:27,601 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.872 seconds (JVM running for 6.683)
+2022-06-06 20:55:50,700 INFO [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:55:50,701 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:55:50,703 INFO [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 20:55:50,747 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:55:50],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 20:55:50,774 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 20:55:50,962 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 20:55:51,158 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 20:55:51],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 20:56:45,947 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 20:56:45,962 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 20:57:02,113 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 145628 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 20:57:02,117 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 20:57:02,824 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 20:57:02,827 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 20:57:02,858 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-06-06 20:57:03,781 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 20:57:03,794 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:57:03,795 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 20:57:03,796 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 20:57:04,066 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 20:57:04,067 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1899 ms
+2022-06-06 20:57:06,301 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 20:57:06,656 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 20:57:06,681 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 20:57:06,710 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.186 seconds (JVM running for 6.56)
+2022-06-06 20:57:09,938 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 20:57:09,939 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 20:57:09,941 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 22:58:46,773 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 151844 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 22:58:46,776 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 22:58:47,749 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 22:58:47,754 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 22:58:47,781 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-06-06 22:58:48,681 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 22:58:48,694 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 22:58:48,694 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 22:58:48,695 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 22:58:48,958 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 22:58:48,959 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2124 ms
+2022-06-06 22:58:50,683 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 22:58:50,990 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 22:58:51,010 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 22:58:51,035 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.933 seconds (JVM running for 6.498)
+2022-06-06 22:59:48,735 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 22:59:48,736 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 22:59:48,737 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-06-06 23:00:55,259 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:00:55],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:00:55,294 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:00:55,595 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:00:55,725 INFO [http-nio-8080-exec-3] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:00:55],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:01:50,463 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:01:50,473 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:02:05,828 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 23744 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:02:05,836 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:02:06,780 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:02:06,785 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:02:06,814 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:02:07,594 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:02:07,604 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:02:07,605 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:02:07,605 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:02:07,814 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:02:07,819 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1929 ms
+2022-06-06 23:02:09,727 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:02:10,115 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:02:10,143 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:02:10,183 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.037 seconds (JVM running for 6.503)
+2022-06-06 23:02:35,024 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:02:35,025 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:02:35,031 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 6 ms
+2022-06-06 23:02:35,097 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:02:35],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:02:35,134 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:02:35,515 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:02:35,656 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:02:35],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:03:12,684 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:03:12,715 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:03:28,642 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 29144 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:03:28,645 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:03:29,580 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:03:29,585 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:03:29,620 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:03:30,575 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:03:30,587 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:03:30,588 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:03:30,589 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:03:30,917 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:03:30,926 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2222 ms
+2022-06-06 23:03:32,620 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:03:32,967 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:03:32,991 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:03:33,018 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.069 seconds (JVM running for 6.221)
+2022-06-06 23:06:42,734 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:06:42,734 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:06:42,737 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 3 ms
+2022-06-06 23:06:42,813 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:06:42],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:06:42,853 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:06:43,129 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:06:43,239 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:06:43],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:07:10,876 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:07:10,886 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:07:27,158 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 210424 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:07:27,161 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:07:27,928 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:07:27,930 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:07:27,965 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:07:28,892 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:07:28,901 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:07:28,902 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:07:28,902 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:07:29,206 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:07:29,207 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1995 ms
+2022-06-06 23:07:31,266 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:07:31,598 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:07:31,618 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:07:31,643 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 5.043 seconds (JVM running for 6.53)
+2022-06-06 23:08:37,659 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 203736 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:08:37,662 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:08:38,418 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:08:38,420 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:08:38,455 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:08:39,191 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:08:39,199 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:08:39,201 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:08:39,201 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:08:39,431 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:08:39,431 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1724 ms
+2022-06-06 23:08:41,412 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:08:41,816 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:08:41,838 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:08:41,869 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.839 seconds (JVM running for 7.22)
+2022-06-06 23:08:45,503 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:08:45,504 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:08:45,505 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-06-06 23:08:45,566 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:08:45],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:08:45,589 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:08:45,822 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:08:45,974 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:08:45],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:10:09,157 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:10:09,166 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:10:28,711 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 27744 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:10:28,719 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:10:30,965 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:10:30,969 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:10:31,011 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:10:32,138 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:10:32,147 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:10:32,148 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:10:32,148 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:10:32,407 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:10:32,407 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 3596 ms
+2022-06-06 23:10:34,643 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:10:35,184 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:10:35,203 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:10:35,228 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 7.944 seconds (JVM running for 9.65)
+2022-06-06 23:10:37,128 INFO [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:10:37,129 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:10:37,130 INFO [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 1 ms
+2022-06-06 23:10:37,182 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:10:37],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:10:37,233 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:10:37,514 INFO [http-nio-8080-exec-2] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:10:37,591 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:10:37],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:11:31,618 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:11:31,627 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:11:55,234 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 205596 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:11:55,239 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:11:56,140 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:11:56,143 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:11:56,170 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:11:57,084 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:11:57,093 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:11:57,094 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:11:57,094 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:11:57,375 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:11:57,376 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2081 ms
+2022-06-06 23:12:00,146 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:12:00,635 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:12:00,666 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:12:00,703 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.293 seconds (JVM running for 8.011)
+2022-06-06 23:12:01,035 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:12:01,036 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:12:01,038 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 23:12:01,100 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:12:01],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:12:01,132 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:12:01,420 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:12:01,565 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:12:01],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:12:08,329 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:12:08],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:12:08,335 INFO [http-nio-8080-exec-2] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:12:08],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:13:48,719 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:13:48,731 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2022-06-06 23:14:04,398 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 26184 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:14:04,402 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:14:05,143 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:14:05,145 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:14:05,171 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:14:05,919 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:14:05,929 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:14:05,930 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:14:05,930 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:14:06,136 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:14:06,137 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 1685 ms
+2022-06-06 23:14:07,903 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:14:08,225 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:14:08,245 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:14:08,271 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 4.456 seconds (JVM running for 5.613)
+2022-06-06 23:14:47,014 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:14:47,014 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:14:47,016 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 2 ms
+2022-06-06 23:17:48,697 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:55] Starting NewcoderApplication using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 22556 (E:\Code_Study\Project\newcoder\target\classes started by w in E:\Code_Study\Project\newcoder)
+2022-06-06 23:17:48,701 INFO [main] c.e.n.NewcoderApplication [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-06 23:17:49,696 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-06 23:17:49,701 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-06 23:17:49,732 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-06-06 23:17:50,698 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 8080 (http)
+2022-06-06 23:17:50,709 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:17:50,710 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-06 23:17:50,710 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-06 23:17:51,035 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-06 23:17:51,035 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:290] Root WebApplicationContext: initialization completed in 2252 ms
+2022-06-06 23:17:53,958 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-06 23:17:54,557 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-06 23:17:54,589 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-06 23:17:54,628 INFO [main] c.e.n.NewcoderApplication [StartupInfoLogger.java:61] Started NewcoderApplication in 6.9 seconds (JVM running for 8.936)
+2022-06-06 23:17:54,726 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-06 23:17:54,727 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:525] Initializing Servlet 'dispatcherServlet'
+2022-06-06 23:17:54,734 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:547] Completed initialization in 7 ms
+2022-06-06 23:17:54,953 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:54],访问了[com.example.newcoder.service.DiscussPostService.countDiscussPost].
+2022-06-06 23:17:55,108 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-06 23:17:55,415 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-06 23:17:55,547 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:55],访问了[com.example.newcoder.service.DiscussPostService.findDiscussPosts].
+2022-06-06 23:17:55,560 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:55],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:55,568 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:55],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,747 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,754 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,756 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,773 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,775 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,777 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,779 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,782 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,784 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,787 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,788 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,791 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,792 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,795 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,796 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,800 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:17:56,802 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:17:56,804 INFO [http-nio-8080-exec-1] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:17:56],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:12,790 INFO [http-nio-8080-exec-4] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:12],访问了[com.example.newcoder.service.UserService.login].
+2022-06-06 23:18:12,986 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:12],访问了[com.example.newcoder.service.UserService.findTicket].
+2022-06-06 23:18:12,989 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:12],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:12,998 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:12],访问了[com.example.newcoder.service.DiscussPostService.countDiscussPost].
+2022-06-06 23:18:13,019 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.DiscussPostService.findDiscussPosts].
+2022-06-06 23:18:13,036 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,039 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,041 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,043 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,044 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,047 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,052 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,056 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,062 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,071 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,074 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,077 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,079 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,083 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,085 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,089 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,091 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,096 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:13,101 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:13,107 INFO [http-nio-8080-exec-5] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:13],访问了[com.example.newcoder.service.LikeService.findEntityLikeCount].
+2022-06-06 23:18:14,842 INFO [http-nio-8080-exec-6] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:14],访问了[com.example.newcoder.service.UserService.findTicket].
+2022-06-06 23:18:14,848 INFO [http-nio-8080-exec-6] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:14],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:14,858 INFO [http-nio-8080-exec-6] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:14],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:14,860 INFO [http-nio-8080-exec-6] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:14],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:18:16,660 INFO [http-nio-8080-exec-8] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:16],访问了[com.example.newcoder.service.UserService.findTicket].
+2022-06-06 23:18:16,665 INFO [http-nio-8080-exec-8] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:16],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:16,673 INFO [http-nio-8080-exec-8] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:16],访问了[com.example.newcoder.service.FollowService.follow].
+2022-06-06 23:18:21,454 INFO [http-nio-8080-exec-9] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:21],访问了[com.example.newcoder.service.UserService.findTicket].
+2022-06-06 23:18:21,460 INFO [http-nio-8080-exec-9] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:21],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:21,463 INFO [http-nio-8080-exec-9] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:21],访问了[com.example.newcoder.service.UserService.findUserById].
+2022-06-06 23:18:21,465 INFO [http-nio-8080-exec-9] c.e.n.a.ServiceLogAspect [ServiceLogAspect.java:50] 用户[0:0:0:0:0:0:0:1],在[2022-06-06 23:18:21],访问了[com.example.newcoder.service.LikeService.findUserLikeCount].
+2022-06-06 23:45:43,148 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2022-06-06 23:45:43,169 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,7 @@
+2022-06-12 20:25:35,839 INFO [main] c.e.n.testString [StartupInfoLogger.java:55] Starting testString using Java 1.8.0_321 on DESKTOP-BPV16TU with PID 175692 (started by w in E:\Code_Study\Project\newcoder)
+2022-06-12 20:25:35,851 INFO [main] c.e.n.testString [SpringApplication.java:640] No active profile set, falling back to 1 default profile: "default"
+2022-06-12 20:25:36,810 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:262] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-12 20:25:36,814 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:132] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-12 20:25:36,852 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:201] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-06-12 20:25:40,578 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2022-06-12 20:25:41,195 INFO [main] c.e.n.testString [StartupInfoLogger.java:61] Started testString in 5.89 seconds (JVM running for 7.336)
