@@ -1,8 +1,6 @@
 package com.example.newcoder.controller;
 
 
-import com.example.newcoder.dao.CommentMapper;
-import com.example.newcoder.dao.DiscussPostMapper;
 import com.example.newcoder.entity.Comment;
 import com.example.newcoder.entity.DiscussPost;
 import com.example.newcoder.entity.Page;
@@ -12,9 +10,8 @@ import com.example.newcoder.service.DiscussPostService;
 import com.example.newcoder.service.LikeService;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import com.example.newcoder.util.newCoderUtil;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.ui.Model;
@@ -27,7 +24,7 @@ import java.util.*;
 @SuppressWarnings({"all"})
 @Component
 @RequestMapping("/discuss")
-public class DiscussPostController implements newCoderConstant {
+public class DiscussPostController implements CommunityConstant {
 
     @Autowired
     private DiscussPostService discussPostService;

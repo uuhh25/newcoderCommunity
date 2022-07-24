@@ -6,13 +6,11 @@ import com.example.newcoder.entity.LoginTicket;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.util.MailClient;
 import com.example.newcoder.util.RedisKeyUtil;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import com.example.newcoder.util.newCoderUtil;
-import com.mysql.cj.log.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
@@ -26,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 
 @SuppressWarnings({"all"})
 @Service
-public class UserService implements newCoderConstant {
+public class UserService implements CommunityConstant {
     @Autowired
     private UserMapper userMapper;
 

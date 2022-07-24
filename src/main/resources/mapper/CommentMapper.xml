@@ -2,9 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.newcoder.dao.CommentMapper">
 
-<!--    <sql id="selectFields">-->
-<!--        id, user_id, entity_type, entity_id, target_id, content, status, create_time-->
-<!--    </sql>-->
+    <sql id="selectFields">
+        id, user_id, entity_type, entity_id, target_id, content, status, create_time
+    </sql>
 
 <!--    <sql id="insertFields">-->
 <!--        user_id, entity_type, entity_id, target_id, content, status, create_time-->
@@ -24,8 +24,15 @@
         select count(id)
         from comment
         where status = 0
-          and entity_type = #{entityType}
-          and entity_id = #{entityId}
+        and entity_type = #{entityType}
+        and entity_id = #{entityId}
+    </select>
+
+    <select id="selectCommentById" resultType="com.example.newcoder.entity.Comment">
+        select id, user_id, entity_type, entity_id, target_id, content, status, create_time
+        from comment
+        where status = 0
+        and id = #{id}
     </select>
 
     <insert id="insertComment" keyProperty="id">

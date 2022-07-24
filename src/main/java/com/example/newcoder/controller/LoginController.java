@@ -3,7 +3,7 @@ package com.example.newcoder.controller;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.RedisKeyUtil;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import com.example.newcoder.util.newCoderUtil;
 import com.google.code.kaptcha.Producer;
 
@@ -21,11 +21,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.thymeleaf.util.StringUtils;
 
 import javax.imageio.ImageIO;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -34,7 +31,7 @@ import java.util.concurrent.TimeUnit;
 
 @SuppressWarnings({"all"})
 @Controller
-public class LoginController implements newCoderConstant {
+public class LoginController implements CommunityConstant {
 
     private static final Logger logger= LoggerFactory.getLogger(LoginController.class);
 

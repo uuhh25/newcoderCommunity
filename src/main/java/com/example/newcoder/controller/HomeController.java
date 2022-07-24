@@ -6,7 +6,7 @@ import com.example.newcoder.entity.User;
 import com.example.newcoder.service.DiscussPostService;
 import com.example.newcoder.service.LikeService;
 import com.example.newcoder.service.UserService;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +21,7 @@ import java.util.Map;
 
 @Slf4j
 @Controller
-public class HomeController implements newCoderConstant {
+public class HomeController implements CommunityConstant {
     // 根据service 业务层，对视图层进行处理
     @Autowired
     private DiscussPostService discussPostService;

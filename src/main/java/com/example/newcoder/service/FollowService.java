@@ -1,10 +1,9 @@
 package com.example.newcoder.service;
 
-import com.example.newcoder.entity.Page;
 import com.example.newcoder.entity.User;
 import com.example.newcoder.util.RedisKeyUtil;
-import com.example.newcoder.util.newCoderConstant;
-import com.sun.corba.se.spi.ior.ObjectKey;
+import com.example.newcoder.util.CommunityConstant;
+//import com.sun.corba.se.spi.ior.ObjectKey;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
@@ -16,7 +15,7 @@ import java.util.*;
 
 @SuppressWarnings({"all"})
 @Service
-public class FollowService implements newCoderConstant {
+public class FollowService implements CommunityConstant {
 
     // 用redis存储关注和粉丝
     @Autowired

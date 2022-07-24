@@ -4,6 +4,7 @@ import com.example.newcoder.annotation.LoginRequired;
 import com.example.newcoder.controller.interceptor.AlphaInterceptor;
 import com.example.newcoder.controller.interceptor.LoginRequiredInterceptor;
 import com.example.newcoder.controller.interceptor.LoginTicketInterceptor;
+import com.example.newcoder.controller.interceptor.MessageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -25,6 +26,9 @@ public class WebMVCConfig implements WebMvcConfigurer {
     @Autowired
     private LoginRequiredInterceptor loginRequiredInterceptor;
 
+    @Autowired
+    private MessageInterceptor messageInterceptor;
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(alphaInterceptor)
@@ -38,5 +42,9 @@ public class WebMVCConfig implements WebMvcConfigurer {
         registry.addInterceptor(loginRequiredInterceptor)
                 .excludePathPatterns("/**/*.css","/**/*.js","/**/*.png","/**/*.jpg")    // 直接不拦截的路径
         ;  // 具体要拦截的路径
+
+        registry.addInterceptor(messageInterceptor)
+                .excludePathPatterns("/**/*.css", "/**/*.js", "/**/*.png", "/**/*.jpg", "/**/*.jpeg");
+
     }
 }

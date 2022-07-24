@@ -1,14 +1,15 @@
 package com.example.newcoder.controller;
 
+import com.example.newcoder.entity.Event;
 import com.example.newcoder.entity.Page;
 import com.example.newcoder.entity.User;
+import com.example.newcoder.event.EventProducer;
 import com.example.newcoder.service.FollowService;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import com.example.newcoder.util.newCoderUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,13 +22,17 @@ import java.util.Map;
 
 @SuppressWarnings({"all"})
 @Controller
-public class FollowController implements newCoderConstant{ // 异步操作
+public class FollowController implements CommunityConstant { // 异步操作
     @Autowired
     private FollowService followService;
     @Autowired
     private HostHolder hostHolder;
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private EventProducer eventProducer;
+
 
     // 关注
     @RequestMapping(path = "/follow", method = RequestMethod.POST)
@@ -39,6 +44,15 @@ public class FollowController implements newCoderConstant{ // 异步操作
             return "/site/login";
         }
         followService.follow(user.getId(),entityType,entityId);
+
+        // 触发关注事件
+        Event event = new Event()
+                .setTopic(TOPIC_FOLLOW)
+                .setUserId(hostHolder.getUser().getId())
+                .setEntityType(entityType)
+                .setEntityId(entityId)
+                .setEntityUserId(entityId);
+        eventProducer.fireEvent(event);
 
         return newCoderUtil.getJSONString(0,"关注成功");
     }
@@ -116,6 +130,6 @@ public class FollowController implements newCoderConstant{ // 异步操作
             return false;
         }
         // 当前用户，对列表中的具体实体的关注状态
-        return followService.hasFollowed(hostHolder.getUser().getId(),newCoderConstant.ENTITY_USER,userId);
+        return followService.hasFollowed(hostHolder.getUser().getId(), CommunityConstant.ENTITY_USER,userId);
     }
 }

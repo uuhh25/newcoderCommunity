@@ -7,7 +7,7 @@ import com.example.newcoder.service.FollowService;
 import com.example.newcoder.service.LikeService;
 import com.example.newcoder.service.UserService;
 import com.example.newcoder.util.HostHolder;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import com.example.newcoder.util.newCoderUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,7 +29,7 @@ import java.io.OutputStream;
 
 @Controller
 @RequestMapping("/user")
-public class UserController implements newCoderConstant {
+public class UserController implements CommunityConstant {
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 

@@ -4,7 +4,7 @@ import com.example.newcoder.dao.CommentMapper;
 import com.example.newcoder.dao.DiscussPostMapper;
 import com.example.newcoder.entity.Comment;
 import com.example.newcoder.util.SensitiveFilter;
-import com.example.newcoder.util.newCoderConstant;
+import com.example.newcoder.util.CommunityConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
@@ -15,7 +15,7 @@ import org.springframework.web.util.HtmlUtils;
 import java.util.List;
 @SuppressWarnings({"all"})
 @Service
-public class CommentService implements newCoderConstant {
+public class CommentService implements CommunityConstant {
 
     //
     @Autowired
@@ -33,6 +33,10 @@ public class CommentService implements newCoderConstant {
     // 评论数量
     public int findCommentCount(int entityType,int entityId){
         return commentMapper.selectCommentsCountByEntity(entityType,entityId);
+    }
+
+    public Comment findCommentById(int id){
+        return commentMapper.selectCommentById(id);
     }
 
     // 添加评论,把添加评论的操作放入到一个事务中，保证完成
